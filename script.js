@@ -63,4 +63,5 @@ function movePlayer(direction){
 document.addEventListener("keydown", (e) => {
   movePlayer(e.key);
 });
-  
+
+makeMaze();
