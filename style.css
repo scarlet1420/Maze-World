@@ -1,0 +1,45 @@
+#title {
+ color: Purple ;
+ font-size: 40px;
+  padding: 7px;
+}
+.maze {
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-template-rows: repeat(5, 60px);
+  gap: 4px;
+  justify-content: center; 
+  margin: auto;
+}
+.cell {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  background-color: white;
+  border: 20px soild #ccc;
+}
+.wall{
+  background-color: black
+  
+  
+  
+}
+.player{
+  background-color: purple
+  
+  
+  
+}
+.goal{
+  background-color: blue
+  
+  
+  
+}
+#message {
+  background-color: Pink
+  
+  
+}
